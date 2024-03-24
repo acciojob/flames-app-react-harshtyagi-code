@@ -1,4 +1,5 @@
-import React, {Component, useState} from "react";
+import React, {Component} from "react";
+import Form from "./Form";
 import '../styles/App.css';
 
 class App extends Component {
@@ -6,11 +7,9 @@ class App extends Component {
 
         return(
             <div id="main">
-               {/* Do not remove the main div */}
+               <Form/>
             </div>
         )
     }
-}
-
-
+} 
 export default App;
